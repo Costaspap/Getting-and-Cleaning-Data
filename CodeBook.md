@@ -1,7 +1,7 @@
 #CodeBook
 
-In this CodeBook you can find the source of the dataset, a description of the dataset,
-a description of the files and the variables as well as any transformations made in the run_analysis.R script.
+In this CodeBook you can find the source of the dataset, a description of the dataset and
+a description of the files and the variables.
 
 ##The source
 
@@ -144,3 +144,4 @@ using the aggregate function and sorted by the subjects and the activities using
 
 For information about the features variables read the features_info.txt file included in the dataset.  
 
+The transformations are explained in the readme file as well as in the script comments.
