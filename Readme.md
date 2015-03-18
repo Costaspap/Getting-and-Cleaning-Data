@@ -18,6 +18,8 @@ and then source it in R using the command source("run_analysis.R").
 The script will download and unzip the dataset folder UCI HAR Dataset
 in your working directory and then delete the zip file. Finally it will create the file Tidy_Dataset.txt in your working directory.  
 
+The script needs the plyr package in order to run. If you don't have it, the script will install it for you.
+
 run_analysis.R does the following steps(also included as comments in the script):
 
 ## Steps of the script
