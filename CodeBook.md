@@ -142,6 +142,5 @@ class: dataframe
 description: The final dataframe created after grouping the full_dataset by subject and by activity
 using the aggregate function and sorted by the subjects and the activities using the arrange function.  
 
-### For information about the features variables read the
-features_info.txt file included in the dataset.  
+For information about the features variables read the features_info.txt file included in the dataset.  
 
