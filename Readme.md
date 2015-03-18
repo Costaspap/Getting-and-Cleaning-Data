@@ -20,7 +20,7 @@ in your working directory and then delete the zip file. Finally it will create t
 
 The script needs the plyr package in order to run. If you don't have it, the script will install it for you.
 
-run_analysis.R does the following steps(also included as comments in the script):
+run_analysis.R does the following steps and transformations(also included as comments in the script):
 
 ## Steps of the script
 
