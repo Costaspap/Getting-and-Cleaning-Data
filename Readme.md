@@ -28,3 +28,4 @@ factor. Then changes the factor's levels from 1,2,3,4,5,6 to the appropriate lab
 * Step 11: Extracts only the measurements on the mean and standard deviation for each measurement.  
 * Step 12: Subsets the dataset based on the extracted measurements.  
 * Step 13: Creates a second, independent tidy data set with the average of each variable for each activity and each subject.  
+I include the resulting dataset in this repository under the name Tidy_Dataset.txt
