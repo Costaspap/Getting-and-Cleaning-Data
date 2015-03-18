@@ -13,11 +13,11 @@ https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Datas
 ##How to run run_analysis.R
 
 You will need to have R installed.
-If so,just copy and paste run_analysis.R in your working directory and then  
-source it in R using the command source("run_analysis.R").  
-The script will download and unzip the dataset folder UCI HAR Dataset in your  
-working directory and then delete the zip file. Finally it will output the file
-Tidy_Dataset.txt in your working directory. 
+If so,just copy and paste run_analysis.R in your working directory  
+and then source it in R using the command source("run_analysis.R").   
+The script will download and unzip the dataset folder UCI HAR Dataset
+in your working directory and then delete the zip file. Finally it  
+will output the file Tidy_Dataset.txt in your working directory.  
 
 run_analysis.R does the following steps(also included as comments in the script):
 
