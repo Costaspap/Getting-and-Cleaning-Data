@@ -127,8 +127,7 @@ description: A dataframe containing the features.txt file values(only the 2nd co
 variable: full_dataset  
 class: dataframe  
 description: The full dataframe created after adding the subject, the activities and the features  
-variables together using the cbind function. For information about the features variables read the
-features_info.txt file included in the dataset.  
+variables together using the cbind function.  
 
 variable: activity_labels  
 class: dataframe  
@@ -142,3 +141,7 @@ variable: tidy_dataset
 class: dataframe  
 description: The final dataframe created after grouping the full_dataset by subject and by activity
 using the aggregate function and sorted by the subjects and the activities using the arrange function.  
+
+### For information about the features variables read the
+features_info.txt file included in the dataset.  
+
