@@ -14,7 +14,7 @@ run_analysis.R does the following steps(also included as comments in the script)
 
 ## Steps of the script
 
-*Step 1: The script checks if the required dataset exists in your working directory.If not it downloads the zip file, unzips it and deletes the zip file.  
+* Step 1: The script checks if the required dataset exists in your working directory.If not it downloads the zip file, unzips it and deletes the zip file.  
 * Step 2: Checks if the package plyr is installed and if not installs it and loads it, if yes it just loads it.  
 * Step 3: Sets your working directory to be the dataset folder.  
 * Step 4: Reads the activity files (y_train.txt and y_test.txt) and stores them in the corresponding variables.  
