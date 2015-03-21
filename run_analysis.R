@@ -59,6 +59,17 @@ names(features)=feature_names
 full_dataset=cbind(subject,activities,features)
 
 #-------------------------------------------------------------------------------------------------
+#Extracts only the measurements on the mean and standard deviation for each measurement
+
+mean_std_names=grep(".?mean\\(\\).?|.?std\\(\\).?",names(full_dataset))
+
+#-------------------------------------------------------------------------------------------------
+#Subsets the dataset based on the extracted measurements
+
+full_dataset=full_dataset[,c(1,2,mean_std_names)]
+
+
+#-------------------------------------------------------------------------------------------------
 #Reads the activity labels from the activity_labels.txt file and changes activity labels class
 #in the dataset to factor. Then changes the factor's levels from 1,2,3,4,5,6 to the appropriate
 #label
@@ -81,16 +92,6 @@ names(full_dataset)=gsub("Gyro","Gyroscope",names(full_dataset))
 names(full_dataset)=gsub("BodyBody","Body",names(full_dataset))
 names(full_dataset)=gsub("Mag","Magnitude",names(full_dataset))
 names(full_dataset)=gsub("tBody","timeBody",names(full_dataset))
-
-#-------------------------------------------------------------------------------------------------
-#Extracts only the measurements on the mean and standard deviation for each measurement
-
-mean_std_names=grep(".?mean\\(\\).?|.?std\\(\\).?",names(full_dataset))
-
-#-------------------------------------------------------------------------------------------------
-#Subsets the dataset based on the extracted measurements
-
-full_dataset=full_dataset[,c(1,2,mean_std_names)]
 
 #-------------------------------------------------------------------------------------------------
 #Creates a second, independent tidy data set with the average of each variable for each activity 
