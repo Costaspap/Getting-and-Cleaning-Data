@@ -11,7 +11,8 @@ If not it downloads the zip file, unzips it, deletes the zip file
 
 ```{r}
 if(!file.exists("UCI HAR Dataset")){
-  url="https:\\\\d396qusza40orc.cloudfront.net\\getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip"
+  url="https://d396qusza40orc.cloudfront.net/"
+  url = paste(url,"getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip",sep = "")
   download.file(url,"data")
   unzip("data")
   file.remove("data")
